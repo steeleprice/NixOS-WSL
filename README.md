@@ -7,7 +7,7 @@ It is my hope this is easy to follow to get results.
 
 There are several good deployments out there, [Ubuntu](https://ubuntu.com/wsl) and [Debian](https://salsa.debian.org/debian/WSL) are two such examples.
 
-> **I am working heavily in the language learning, syntax and semantics fields of computer science.** I am also moving more and more into **functional programming** and working with it in cross-platform ways. *I need a better package system, one I can evaluate as a language, and work with across distributed systems.*
+> **I am working heavily in the language learning, syntax and semantics fields of computer science.** I am also moving more and more into **functional programming** and working with it in cross-platform ways. *I need a better package system, one I can evaluate as a language expression, and able to work across distributed systems and distros.*
 
 # Nix
 > "Nix is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible. It provides atomic upgrades and rollbacks, side-by-side installation of multiple versions of a package, multi-user package management and easy setup of build environments."
@@ -16,6 +16,8 @@ There are several good deployments out there, [Ubuntu](https://ubuntu.com/wsl) a
 > "NixOS is a Linux distribution with a unique approach to package and configuration management. Built on top of the Nix package manager, it is completely declarative, makes upgrading systems reliable, [and has many other advantages](https://nixos.org/nixos/about.html)."
 
 ## What we want:
+
+> By building entire system configurations from a Nix expression, NixOS ensures that such configurations don’t overwrite each other, can be rolled back, and so on.
 
 A minimal root filesystem for running NixOS on WSL. 
 It is side-loaded or installed with [DistroLauncher](https://github.com/microsoft/WSL-DistroLauncher) as `install.tar.gz`.
