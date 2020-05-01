@@ -48,8 +48,11 @@ The resulting mini rootfs can then be found as
 
 ### Further links
 
-[DistroLauncher](https://github.com/microsoft/WSL-DistroLauncher)
-[A quick way into a systemd "bottle" for WSL](https://github.com/arkane-systems/genie)
-[NixOS in Windows Store for Windows Subsystem for Linux](https://github.com/NixOS/nixpkgs/issues/30391)
-[wsl2-hacks] (https://github.com/shayne/wsl2-hacks)
+- [DistroLauncher](https://github.com/microsoft/WSL-DistroLauncher)
+
+- [A quick way into a systemd "bottle" for WSL](https://github.com/arkane-systems/genie)
+
+- [NixOS in Windows Store for Windows Subsystem for Linux](https://github.com/NixOS/nixpkgs/issues/30391)
+
+- [wsl2-hacks] (https://github.com/shayne/wsl2-hacks)
 
