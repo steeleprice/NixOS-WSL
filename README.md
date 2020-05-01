@@ -54,5 +54,5 @@ The resulting mini rootfs can then be found as
 
 - [NixOS in Windows Store for Windows Subsystem for Linux](https://github.com/NixOS/nixpkgs/issues/30391)
 
-- [wsl2-hacks] (https://github.com/shayne/wsl2-hacks)
+- [wsl2-hacks](https://github.com/shayne/wsl2-hacks)
 
