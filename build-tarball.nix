@@ -33,6 +33,9 @@ let
      # WSL also requires a /bin/mount, otherwise the host fs isn't accessible
      ln -s /nix/var/nix/profiles/system/sw/bin/mount ./bin/mount
 
+     # WSL also requires a /bin/id, otherwise the process isn't accessible
+     ln -s /nix/var/nix/profiles/system/sw/bin/id ./bin/id
+
      # Set system profile
      system=${config.system.build.toplevel}
      ./$system/sw/bin/nix-store --store `pwd` --load-db < ./nix-path-registration
